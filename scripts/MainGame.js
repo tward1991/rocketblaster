@@ -8,7 +8,7 @@ BasicGame.Game.prototype = {
        //specify the physics of the game to ARCADE
 			 this.physics.startSystem(Phaser.Physics.ARCADE);
 			// Add the starfield and logo on screen
-			this.starfield = this.add.tileSprite(0,0,800,600 'starfield')
+			this.starfield = this.add.tileSprite(0, 0, 800, 600, 'starfield');
 			//Add the ship onto the screen, set physics and the boundaries
 			ship = this.add.sprite((this.world.width / 2), this.world.height - 50, 'ship');
 			ship.anchor.setTo(0.5,0);
