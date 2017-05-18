@@ -7,16 +7,16 @@ var logo;
 BasicGame.MainMenu.prototype = {
 
 	create: function () {
-// We've always loaded the assets so we'll move straight into the MainMenu
+// We've already preloaded our assets so we'll move straight into the MainMenu
 // Here all we are doing is playing music, adding a picture and a button
 // I will modify the MainMenu to suit your game
 
-// Output sky, ship, score, lives, total and Start Time to the screen
+// Outputting sky, ship, score, lives, total and Start Time to the screen
 // The Scrolling starfield background
-starfield = this.add.tileSprite(0,0,800,600) 'starfield');
+starfield = this.add.tileSprite(0,0, 800, 600, 'starfield');
 logo = this.add.sprite((this.world.width / 2), (this.world.height / 2) - 150, 'logo');
 logo.anchor.setTo(0.5,0.5);
-startButton = this.add.button((this.world.width / 2), (this.world.height / 2) + 50, 'startButton', this.startGame;
+startButton = this.add.button((this.world.width / 2), (this.world.height / 2) + 50, 'startButton', this.startGame);
 startButton.anchor.setTo(0.5,0.5);
 	},
 
