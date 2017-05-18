@@ -18,9 +18,9 @@ BasicGame.Preloader.prototype = {
 
 	//preload the images, sprites and audio assets into memory
 this.load.image('logo','assets/PhaserLogo.png');
-this.load.image('logo','assets/starfield.png');
-this.load.image('logo','assets/StartButton.png');
-this.load.image('logo','assets/ship.png');
+this.load.image('starfield','assets/starfield.png');
+this.load.image('startButton','assets/startButton.png');
+this.load.image('ship','assets/ship.png');
 },
 	create: function () {
 
