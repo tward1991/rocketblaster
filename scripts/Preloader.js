@@ -13,7 +13,7 @@ BasicGame.Preloader.prototype = {
 		fontSize: '96px';
 	  fill: '#fff',
 		align: 'center'
-	});
+	};
 	this.preloaderText.anchor.setTo(0.5,0.5);
 
 	//preload the images, sprites and audio assets into memory
